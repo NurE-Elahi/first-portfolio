@@ -5,34 +5,42 @@ body{
 h1{
     font-size: 50px;
 }
-.snow-color{
+.heading-color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
-.first-section{
+.half-width{
     width: 50%;
-    padding-left: 7%;
+    padding-left: 6%;
     padding-top: 1%;
+    padding-right: 2%;
 }
-.first-section img{
-    width: 80%;
-    padding-left: 4%;
-    padding-top: 4%;
+.half-width img{
+    width: 60%;
+    padding-left: 15%;
+    padding-top: 12%;
 }
-.first-section p{
+.half-width p{
     text-align: justify;
     font-weight: 100;
 }
-.got-style{
+.link-button{
     text-decoration: none;
     color: white;
     font-weight: 600;
     background-image: linear-gradient(orange, rgba(255, 166, 0, 0.5));
     padding: 10px 20px;
     border-radius: 5px;
-}.top{
+}
+.top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
