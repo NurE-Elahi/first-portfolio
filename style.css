@@ -5,23 +5,25 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .heading-color{
     color: orange;
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 6%;
-    padding-top: 1%;
     padding-right: 2%;
 }
 .half-width img{
     width: 60%;
     padding-left: 15%;
-    padding-top: 12%;
+    padding-top: 13%;
 }
 .half-width p{
     text-align: justify;
@@ -43,4 +45,35 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box-shadow{
+    box-shadow: 5px 5px 40px grey;
+    width: 40%;
+    padding-left: 2%;
+    padding-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2px;
+}
+.bottom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#pro-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#exp{
+    margin-left: 5%;
+    color: orange;
+}
+footer p{
+    text-align: center;
 }
